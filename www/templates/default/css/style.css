@@ -1,0 +1,20 @@
+body{
+
+}
+.header{
+    width: 100%;
+    text-align: center;
+}
+main{
+    display: flex;
+}
+.menu__left{
+    margin-left: 0;
+    flex: 0 1 20%;
+}
+.center{
+    flex: 0 1 80%;
+}
+.footer{
+    text-align: center;
+}
