@@ -4,6 +4,7 @@ body{
 .header{
     width: 100%;
     text-align: center;
+    height: 90px;
 }
 main{
     display: flex;
@@ -14,8 +15,32 @@ main{
 }
 .center{
     flex: 0 1 80%;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    row-gap: 30px;
+    column-gap: 30px;
+}
+.center__card{
+    display: block;
+    width: 250px;
+    height: 300px;
+    background-color: #f0c040;
+    grid-column: span 2;
+}
+img{
+    display: block;
+    width: 100%;
+    height: 200px;
 }
 .footer{
     text-align: center;
     background-color: #9B410E;
+}
+.list__link{
+    display: block;
+}
+.list__link-sub{
+    display: block;
+    color: black;
+    padding-left: 20px;
 }

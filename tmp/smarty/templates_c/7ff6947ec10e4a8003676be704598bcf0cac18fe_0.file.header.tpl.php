@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.2.0, created on 2022-08-20 11:18:23
+/* Smarty version 4.2.0, created on 2022-08-20 18:15:13
   from 'C:\OpenServer\domains\myshop\views\default\header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.2.0',
-  'unifunc' => 'content_630098cf992617_07006242',
+  'unifunc' => 'content_6300fa81aeba69_74755220',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '7ff6947ec10e4a8003676be704598bcf0cac18fe' => 
     array (
       0 => 'C:\\OpenServer\\domains\\myshop\\views\\default\\header.tpl',
-      1 => 1660983501,
+      1 => 1661008503,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:leftcolumn.tpl' => 1,
   ),
 ),false)) {
-function content_630098cf992617_07006242 (Smarty_Internal_Template $_smarty_tpl) {
+function content_6300fa81aeba69_74755220 (Smarty_Internal_Template $_smarty_tpl) {
 ?><html>
 <head>
     <title><?php echo $_smarty_tpl->tpl_vars['pageTitle']->value;?>
@@ -39,5 +39,5 @@ css/style.css">
 ?>
 
     <section class="center">
-        center<?php }
+<?php }
 }

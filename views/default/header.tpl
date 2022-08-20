@@ -12,4 +12,3 @@
 {include file="leftcolumn.tpl"}
 
     <section class="center">
-        center
